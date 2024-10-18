@@ -1,5 +1,5 @@
 # sitemap_generator
 
-pre-req : pip install scrapy
+pip install --upgrade pyopenssl cryptography scrapy
 
-launch : python sitemap_generator.py
+launch : python3 sitemap_generator.py
