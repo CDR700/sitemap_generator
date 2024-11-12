@@ -39,7 +39,7 @@ class SitemapSpider(scrapy.Spider):
         print(f"Sitemap saved as: {filename}")
 
 if __name__ == "__main__":
-    start_url = input("Entrez l'URL du site à crawler : ")
+    start_url = input("What is the url ? : ")
     process = CrawlerProcess()
     process.crawl(SitemapSpider, start_url=start_url)
     process.start() 
